@@ -1,4 +1,9 @@
-"""def pesquisa_binaria(lista, item):
+"""1.1 Suponha que você tenha uma lista com 128 nomes e esteja fazendo uma
+pesquisa binária. Qual seria o número máximo de etapas que você levaria
+para encontrar o nome desejado?"""
+
+
+def pesquisa_binaria(lista, item):
     nome = 0
     ultimo_nome = len(lista) -1
 
@@ -16,7 +21,7 @@
 
 minha_lista = [2,4,8,32,128]
 print (pesquisa_binaria(minha_lista, 128))
-print (pesquisa_binaria(minha_lista, -1))"""
+print (pesquisa_binaria(minha_lista, -1))
 
 
 #1.2 Suponha que você duplique o tamanho da lista. Qual seria o número
